@@ -31,7 +31,7 @@ class TestBasicOperations:
 
 class TestMultiplyDivideWithValidation:
     """Test multiplication and division with input validation."""
-    
+    #in main branch - possibly merge issue
     def test_multiply_input_validation(self):
         """Test multiply rejects non-numeric inputs."""
         with pytest.raises(TypeError, match="Both arguments must be numbers"):
